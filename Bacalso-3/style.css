@@ -1,0 +1,240 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 20px;
+    background: #f5f5f5;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+/* Header */
+h2 {
+    margin-top: 0;
+}
+
+/* Search Area */
+form {
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.search-bar input[type="text"] {
+    flex: 2;
+    min-width: 250px;
+}
+
+.search-bar select {
+    flex: 1;
+    min-width: 180px;
+}
+
+.search-bar button {
+    min-width: 100px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button,
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+}
+
+button:hover,
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Secondary buttons */
+.btn-secondary {
+    background: #6c757d;
+}
+
+.btn-secondary:hover {
+    background: #545b62;
+}
+
+/* Action buttons row */
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #f8f8f8;
+}
+
+/* Low Stock */
+.low-stock {
+    background: #ffe5e5 !important;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+/* Report Cards */
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 180px;
+    background: white;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.card p {
+    margin: 8px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.search-bar input {
+    flex: 2;
+}
+
+.search-bar select {
+    flex: 1;
+}
+
+.toolbar {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-add,
+.btn-report,
+.btn-edit,
+.btn-delete {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-add {
+    background: #28a745;
+}
+
+.btn-report {
+    background: #6c757d;
+}
+
+.btn-edit {
+    background: #007bff;
+}
+
+.btn-delete {
+    background: #dc3545;
+}
+
+.btn-add:hover {
+    background: #218838;
+}
+
+.btn-report:hover {
+    background: #545b62;
+}
+
+.btn-edit:hover {
+    background: #0056b3;
+}
+
+.btn-delete:hover {
+    background: #c82333;
+}
+
+.actions {
+    white-space: nowrap;
+}
+
+.actions a {
+    margin-right: 5px;
+}
+
+.navbar {
+    background: #333;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    background: transparent;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
